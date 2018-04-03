@@ -151,6 +151,206 @@ animation-delay: .8s;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
+/***Education**/
+.education h1,h2,h3,h4,h5,h6{
+	margin:0;	
+	font-family: 'Overlock', cursive;
+   font-weight: 300;
+    
+}
+.education p{
+	margin:0;
+}
+.education h3{
+    font-size: 1.35em;
+}
+.education h3.title {
+    font-size: 3.5em;
+    text-align: center;
+    color: #008B8B;
+    border-bottom: 4px double rgba(247, 197, 106, 0.35);
+    padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+.work {
+    background: #000;
+}
+.work-left {
+    text-align: right;
+    padding: 3em 5em 0 0;
+}
+.work-info h3,p{
+    color: gray;
+    text-transform: inherit;
+     font-weight: inherit;
+}
+.work-right {
+    border-left: 1px solid #999;
+    padding: 2.5em 0 2em 6em;
+}
+.work-info h4 {
+    font-size: 1.2em;
+    background: darkcyan;
+    display: inline-block;
+    padding: .6em 1.2em;
+    color: #fff;
+	position:relative;
+    text-transform: inherit;
+     font-weight: inherit;
+}
+.work-info h4:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+	/*-- w3layouts --*/
+    content: '';
+    top: 9px;
+    right: -14px;
+    border-style: solid;
+    border-width: 10px 0 10px 16px;
+    border-color: transparent transparent transparent rgb(0, 139, 139);
+}
+.work-info h5 {
+    font-size: 1.2em;
+    font-family: Arial;
+    color: #F7E612;
+    margin-bottom: .5em;
+    border: 1px solid #F7E612;
+    display: inline-block;
+    padding: 0 1.2em;
+    text-transform: inherit;
+    font-weight: inherit;
+}
+.work-info h5 span.glyphicon {
+    font-size: 0.9em;
+    color: #fff;
+    background: #008B8B;
+    padding: 1em;
+    -webkit-border-radius: 70%;
+    -moz-border-radius: 70%;
+    border-radius: 70%;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    transition: .5s all;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+}
+.work-right h5 span.glyphicon {
+    margin-right: 5em;
+    margin-left: -8em;
+}
+.work-left2 h5 span.glyphicon {
+    margin-left: 4em;
+    margin-right: -7.3em;
+    z-index: 9;
+}
+.work-right.work-right2 {
+    min-height: 210px;
+    float: right;
+}
+.work-right.work-right2 h4:before {
+    left: -14px;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	/*-- agileits --*/
+    transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.work-right.work-right2 h4 {
+    margin-top: 0.8em;
+}
+.work-info:hover h5 span.glyphicon {
+    color: #F7E612;
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+    transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+/*--//work--*/
+/*--education--*/
+.education .work-info h5 {
+    color: #000;
+}
+/*--//education--*/
+
+@media(max-width:800px){
+.education {
+    padding: 3em 0;
+}
+
+
+}
+@media(max-width:768px){
+.banner-info {
+    padding: 3em 0;
+}
+}
+
+
+@media(max-width:480px){
+
+.education p {
+    font-size: 0.9em;
+}
+.work-info h4 {
+    font-size: 1em;
+}
+.work-info h4:before {
+    right: -10px;
+    border-width: 7px 0 7px 10px;
+}
+.work-info h5 {
+    font-size: 1em;
+}
+.work-left {
+    padding: 1em 3em 0 0;
+}
+.work-right {
+    padding: 1em 0 0.5em 3em;
+}
+.work-right h5 span.glyphicon {
+    margin-right: 3em;
+    margin-left: -6em;
+}
+.work-right.work-right2 h4:before {
+    left: -10px;
+}
+.work-left2 h5 span.glyphicon {
+    margin-left: 3em;
+    margin-right: -6.2em;
+}
+
+}
+@media(max-width:375px){
+.header-right {
+    padding-left: 0;
+}
+.work-left {
+    width: 100%;
+    text-align: left;
+	padding: 1em 0 0 0;
+}
+.work-right {
+    padding: 1em 0 0.5em 2em;
+    width: 95%;
+	border: none;
+}
+.work-right h5 span.glyphicon {
+    margin-right: 2em;
+    margin-left: -5em;
+}
+.work-right.work-right2 {
+    min-height: inherit;
+    padding: 0;
+}
+}
+
+/****Education**/
 /*** 
 
 ====================================================================
@@ -468,6 +668,40 @@ animation-delay: .8s;
   color:#fff;
   font-weight: 700;
   border-width:1px;
+}
+#objectives h3{
+    font-weight: inherit;
+    
+}
+#objectives p{
+    padding:0px 0px 0px 0px;
+    font-size: 20px;
+    color: wheat;
+    margin-left: 38px;
+    
+}
+#objectives .container{
+    width: 80%;
+}
+#objectives .container h3{
+    text-align: center;
+    font-weight: inherit;
+    color: green;
+}
+#objectives .container li{
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    font-family: Arial;
+}
+#objectives .container .z-depth-5:hover{
+   box-shadow: 0 17px 17px 0 rgba(0,0,0,0.15),0 27px 55px 0 rgba(0,0,0,0.3);
+    }
+#award{
+    width: 80%;
+    margin-left: 80px;
+    border: 3px double #4169E1;
+    background: gray;
 }
 /*** 
 
