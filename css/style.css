@@ -151,6 +151,30 @@ animation-delay: .8s;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
+.about-right {
+    padding-left: 5em;
+    text-align: justify;
+}
+.about-right ul {
+    border: 3px double #008B8B;
+    padding: 1em 2em;
+}
+.about-right h5 {
+    font-size: 2em;
+    text-align: center;
+    color: #008B8B;
+}
+.about-right ul li {
+    display: block;
+    color: #999;
+    margin: 1em 0;
+	font-size:1em;
+}
+.about-right ul li span.glyphicon {
+    font-size: 0.8em;
+	margin-right: 6px;
+}
+/*--//about--*/
 /***Education**/
 .education h1,h2,h3,h4,h5,h6{
 	margin:0;	
@@ -609,25 +633,81 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
-.rev_slider_wrapper {
-  background: #000;
-   
+/*--baner--*/
+.banner {
+	background:url(../images/slide-1.jpg)no-repeat center 0px;
+	-webkit-background-size:cover;
+	background-size:cover;
+	-moz-background-size:cover;
+	position: relative;
 }
-
-.banner h1,.banner h6,.banner .project-button {
-  color:#fff;
+.banner-info{
+	background: url(../images/dott.png)repeat 0px 0px;
+	padding: 4em 0;
 }
-
-.banner h6 {
-  font-weight: 500;
+.header-left img {
+    width: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.68);
 }
-.banner .project-button {
-  width: 170px;
-  line-height: 50px;
-  text-align: center;
-  border-width: 1px;
-  text-transform: uppercase;
+.header-right {
+    padding-left: 3em;
 }
+.header-right h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin: 0.5em 0 0;
+}
+.header-right h2 {
+    font-size: 1.2em;
+    color: #000;
+    background: #F3E000;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+}
+.header-right h2:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #F3E000 transparent transparent transparent;
+}
+.header-right h6 {
+    font-size: 1em;
+    color: #C7C7C7;
+    margin-top: 0.8em;
+    letter-spacing: 6px;
+}
+ul.address {
+    margin-top: 2em;
+    border-top: 1px solid #AFAFAF;
+    padding-top: 0.5em;
+}
+ul.address li {
+    display: block;
+}
+ul.address li ul.address-text li {
+    display: inline-block;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 1em;
+	font-weight: 100;
+}
+ul.address li ul.address-text li:nth-child(1){
+	width: 20%;
+}
+ul.address li ul.address-text li a {
+    color: #fff;
+	text-decoration:none;
+}
+ul.address li ul.address-text li a:hover{
+    color: #0FF;
+}
+/*--//banner-top--*/
 /*** 
 
 
@@ -639,23 +719,23 @@ animation-delay: .8s;
 
  ***/
 .page-middle-banner {
-  background: url(../images/home/1.jpg) no-repeat center;
+  /*background: url(../images/home/1.jpg) no-repeat center;*/
   background-size: cover;
   background-attachment: fixed;
   margin-top: 70px;
 }
 .page-middle-banner .opacity {
-  background: rgba(0,0,0,0.8);
+  /*background: rgba(0,0,0,0.8);*/
   text-align: center;
   padding: 10px 0 134px 0;
 }
 .page-middle-banner .opacity h2 {
-  color: #fff;
+  color: #000;
  margin-bottom:20px; 
     
 }
 .page-middle-banner .opacity h3 {
-  color: #fff;
+  color: #000;
   margin-bottom: 25px;
     text-transform: inherit;
     text-align: justify;
@@ -665,7 +745,7 @@ animation-delay: .8s;
 .page-middle-banner .opacity a {
   width: 200px;
   line-height: 45px;
-  color:#fff;
+  color:#000;
   font-weight: 700;
   border-width:1px;
 }
@@ -676,33 +756,11 @@ animation-delay: .8s;
 #objectives p{
     padding:0px 0px 0px 0px;
     font-size: 20px;
-    color: wheat;
+    color: black;
     margin-left: 38px;
     
 }
-#objectives .container{
-    width: 80%;
-}
-#objectives .container h3{
-    text-align: center;
-    font-weight: inherit;
-    color: green;
-}
-#objectives .container li{
-    text-align: justify;
-    font-size: 18px;
-    color: gray;
-    font-family: Arial;
-}
-#objectives .container .z-depth-5:hover{
-   box-shadow: 0 17px 17px 0 rgba(0,0,0,0.15),0 27px 55px 0 rgba(0,0,0,0.3);
-    }
-#award{
-    width: 80%;
-    margin-left: 80px;
-    border: 3px double #4169E1;
-    background: gray;
-}
+
 /*** 
 
 ====================================================================
