@@ -760,6 +760,10 @@ ul.address li ul.address-text li a:hover{
     margin-left: 38px;
     
 }
+#about h3{
+    font-weight: inherit;
+    
+}
 #about p{
     padding:0px 0px 0px 0px;
     font-size: 20px;
